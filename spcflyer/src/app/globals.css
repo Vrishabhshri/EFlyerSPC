@@ -1,20 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-html, body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: 'WalterTurncoat', Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
 
-  overflow-x: hidden;
-  overflow-y: auto;
-  -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
-  scrollbar-width: none;
-}
-
-/* .parent-container {
-  overflow: hidden;
-} */

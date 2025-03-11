@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Hidden Gems",
-  description: "SPC Show Flyer",
+  title: "SPCFlyer",
+  description: "Hidden Gems",
 };
 
 export default function RootLayout({
@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body
+        className={`antialiased`}
+      >
         {children}
       </body>
     </html>
